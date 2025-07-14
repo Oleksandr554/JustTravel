@@ -1,0 +1,68 @@
+name: just_travel
+description: Just Travel splash screen animation
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+      flutter:
+        sdk: flutter
+      intl: ^0.18.0 # або новіша
+      sqflite: ^2.2.0+3 # або новіша
+      path_provider: ^2.0.11 # або новіша
+      image_picker: ^1.0.0 # або новіша
+      path: ^1.8.2 # для p.join і т.д.
+      shared_preferences: ^2.5.3 # або новіша
+      provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/welcome.png
+    - assets/logo.png
+    - assets/apple.png
+    - assets/google.png
+    - assets/facebook.png
+    - assets/login.png
+    - assets/Singup.png
+    - assets/profile.png
+    - assets/texas.png
+    - assets/tokyo.png
+    - assets/paris.png
+    - assets/home.png
+    - assets/likes.png
+    - assets/galerie.png
+    - assets/statistik.png
+    - assets/galeria1.png
+    - assets/galeria2.png
+    - assets/galeria3.png
+    - assets/big_image.png
+    - assets/img1.png
+    - assets/img2.png
+    - assets/img3.png
+    - assets/img4.png
+    - assets/img5.png
+    - assets/img6.png
+    - assets/img7.png
+    - assets/img8.png
+    - assets/profile1.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Regular.ttf
+          weight: 700
+    - family: Inter-semiBold
+      fonts:
+        - asset: fonts/Inter-Bold.ttf
+          weight: 700
